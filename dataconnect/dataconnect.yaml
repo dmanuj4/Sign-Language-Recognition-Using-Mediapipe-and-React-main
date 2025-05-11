@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "Sign-Language-Recognition-Using-Mediapipe-and-React-main"
+location: "asia-east1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "sign-language-recognition-using-mediapipe-and-react-main-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
